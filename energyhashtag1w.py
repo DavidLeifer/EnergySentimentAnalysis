@@ -18,10 +18,10 @@ logfilename = 'energy' + dt.now().strftime("%Y%m%d%H%M%S") + '.log'
 logging.basicConfig(filename=logfilename, format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
 
 # Variables that contains the user credentials to access Twitter API 
-access_token = "34931945-bymf0p4JRNezjfEWrLAubBxxEV4UkGzlMC7yonJUX"
-access_token_secret = "AgiiuYdGH4pAKsCreqA1R4Y2F2veUbf5TEC2EI0ALVWY5"
-consumer_key = "mP0BuPxlcDSkok2X0XsC8HCCl"
-consumer_secret = "j0X8B4gArngCVNMc4HsN2MVCqA5vcyyHgrIyqWMuKfDx6bBfCd"
+access_token = "XXX"
+access_token_secret = "XXX"
+consumer_key = "XXX"
+consumer_secret = "XXX"
 
 
 # This is a basic listener that writes received tweets to files.
